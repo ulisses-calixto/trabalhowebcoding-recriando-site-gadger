@@ -1,0 +1,203 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.desc-produto{
+	color: #505050;
+	font-size: 18px;
+	text-decoration: none;
+	cursor: default;
+}
+
+/* Faça seu código aqui 👇 */
+
+/* ESTILO CABEÇALHO */
+header { 
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 48px;
+}
+
+header ul{
+	display: flex;
+	gap: 48px;
+	list-style-type: none;
+	align-items: center;
+}
+
+header a{
+	color: #505050;
+	font-size: 16px;
+	text-decoration: none;
+}
+/* FIM CABEÇALHO*/
+
+
+/* primeira seção*/
+main{
+	padding: 48px 0;
+	margin: 0;
+}
+
+.primeira-secao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+}
+
+.primeira-secao aside{
+	max-width: 490px;	
+}
+
+.primeira-secao aside h1{
+	color: #040315;
+	font-size: 54px;
+	padding-bottom: 32px;
+}
+
+.primeira-secao aside h3{
+	font-size: 64px;
+	color: #2E68FF;
+	padding: 45px 0%;
+}
+
+aside .texto{
+	color: #505050;
+	padding: 32px 0%;
+}
+
+.botao-comprar button{
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2E68FF;
+	padding: 13px 54px;
+	cursor: pointer;
+}
+/* fim primeira seção*/
+
+
+/*divisão da primeira seção p/ segunda */
+.padding{
+	padding: 168px 0;
+}
+/*divisão da seção */
+
+
+/*segunda seção */
+.segunda-secao{
+	margin-top: 26px;
+	text-align: center;
+}
+
+.segunda-secao h2{
+	color: #2E68FF;
+	font-size: 20px;
+	padding: 2%;
+}
+
+.segunda-secao h1{
+	color: #040315;
+	font-size: 64px;
+}
+
+.produto-desc-flex{
+	padding: 26px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 64px;
+}
+
+.produto-desc-flex a {
+	text-align: center;
+	text-decoration: none;
+	color: #505050;
+}
+/* fim da segunda seção*/
+
+
+/*divisão da seção segunda seção p/ terceira */
+.padding-pg{
+	padding: 200px 0;
+}
+/* divisaão da seção*/
+
+
+/*terceira seção*/
+.terceira-secao{
+	display: flex;
+	background-color: #2E68FF;
+	justify-content: center;
+	padding: 96px;
+	margin: 48px;
+	border-radius: 20px;
+	gap: 96px;
+}
+
+.terceira-secao aside{
+	width: 568px;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.terceira-secao h1{
+	font-size: 54px;
+	margin: 54px 0;
+}
+/*fim seção três*/
+
+
+/* rodapé*/
+footer{
+	background-color: #1a1a1a;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 48px;
+	left: 0;
+    right: 0;
+    position: absolute;
+}
+
+footer ul{
+	display: flex;
+	list-style-type: none;
+	gap: 48px;
+	align-items: center;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+/*fim do rodapé*/
